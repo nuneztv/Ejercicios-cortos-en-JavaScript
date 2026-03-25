@@ -5,15 +5,13 @@ nombre = "María";
 console.log("Nombre reasignado:", nombre);
 
 const apellido = "Torres";
-// apellido = "Gomez"; //  Esto da error porque cuando se usa const,
- ese valor queda fijo, Si se intenta cambiar va a dar error 
+// const apellido = "Gomez"; //  Esto da error porque cuando se usa const,ese valor queda fijo, Si se intenta cambiar va a dar error 
 console.log("Const no se puede reasignar");
 
 if (false) {
   let edad = 20;
 }
-// console.log(edad); // la variable edad vive únicamente
-dentro de las llaves del if, al acceder fuera arroja error
+// console.log(edad); // la variable edad vive únicamentemdentro de las llaves del if, al acceder fuera arroja error
 console.log("let tiene alcance de bloque");
 
 let texto = "Hola";
